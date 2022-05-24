@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend Deca');
+@import url('http://fonts.cdnfonts.com/css/big-shoulders-display');
+body{
+    background-color:  hsl(0, 0%, 95%);
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 95px;
+}
+.first-card{
+    background-color: hsl(31, 77%, 52%);
+    width: 240px;
+    height: 395px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.second-card{
+    background-color: hsl(184, 100%, 22%);
+    width: 240px;
+    height: 395px;
+}
+.third-card{
+    background-color:  hsl(179, 100%, 13%);
+    width: 240px;
+    height: 395px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.car-icon{
+    margin-top: 45px;
+    margin-left: 35px;
+}
+.car-name{
+    font-family: 'Big Shoulders Display', sans-serif;
+    color:  hsl(0, 0%, 95%);
+    margin-top: 20px;
+    margin-left: 35px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.car-des{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 13px;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+.learn-more1{
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+    color: hsl(31, 77%, 52%);
+    background-color:  hsl(0, 0%, 95%);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lexend Deca', sans-serif;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+.learn-more2{
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+    color: hsl(184, 100%, 22%);
+    background-color:  hsl(0, 0%, 95%);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lexend Deca', sans-serif;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+.learn-more3{
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+    color: hsl(179, 100%, 13%);
+    background-color:  hsl(0, 0%, 95%);
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lexend Deca', sans-serif;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+@media screen and (max-width: 375px) {
+    .flex-container {
+        display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100%;
+      overflow: scroll;
+    }
+    .first-card{
+        border-top-right-radius: 10px;
+        border-bottom-left-radius:0px;
+    }
+    .third-card{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius:10px;
+    }
+
+  }

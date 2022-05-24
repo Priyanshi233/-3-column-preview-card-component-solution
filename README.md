@@ -26,7 +26,7 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover states for interactive elements
 
-### Screenshot
+### Screenshot from desktop and mobile screen respectively.
 
 ![ Result viewed from desktop](./screenshots/desktop.PNG)
 
@@ -69,7 +69,7 @@ From this project, I think I still need to learn how to use semantic tags and re
 ## Author
 
 - Website - [Priyanshi Somani](https://github.com/Priyanshi233)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Priyanshii677)
+- Frontend Mentor - [@Priyanshii677](https://www.frontendmentor.io/profile/Priyanshii677)
 
 ## Acknowledgments
 
